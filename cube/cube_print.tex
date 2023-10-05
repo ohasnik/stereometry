@@ -1,0 +1,189 @@
+\documentclass[a4paper]{minimal}
+\usepackage[margin=0.5cm]{geometry}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+\author{Ondřej Hasník}
+\begin{document}
+	\pagestyle{empty}
+	\begin{tikzpicture}
+		\coordinate (A) at (0,0);
+		\coordinate (B) at (6,0);
+		\coordinate (F) at (6,6);
+		\coordinate (E) at (0,6);
+		\coordinate (C) at ($(B) + (45:3)$);
+		\coordinate (G) at ($(F) + (45:3)$);
+		\coordinate (H) at ($(E) + (45:3)$);
+		\coordinate (D) at ($(H) - (0,6)$);
+		\draw (A) -- (B);
+		\draw (B) -- (F);
+		\draw (F) -- (E);
+		\draw (A) -- (E);
+		\draw (B) -- (C);
+		\draw (F) -- (G);
+		\draw (E) -- (H);
+		\draw (C) -- (G);
+		\draw (G) -- (H);
+		\draw[dashed] (H) -- (D);
+		\draw[dashed] (A) -- (D);
+		\draw[dashed] (C) -- (D);
+		\node[below left] at (A) {A};
+		\node[below right] at (B) {B};
+		\node[right] at (C) {C};
+		\node[below right] at (D) {D};
+		\node[above left] at (E) {E};
+		\node[above left] at (F) {F};
+		\node[above right] at (G) {G};
+		\node[above left] at (H) {H};
+	\end{tikzpicture}
+	\begin{tikzpicture}
+		\coordinate (A) at (0,0);
+		\coordinate (B) at (6,0);
+		\coordinate (F) at (6,6);
+		\coordinate (E) at (0,6);
+		\coordinate (C) at ($(B) + (45:3)$);
+		\coordinate (G) at ($(F) + (45:3)$);
+		\coordinate (H) at ($(E) + (45:3)$);
+		\coordinate (D) at ($(H) - (0,6)$);
+		\draw (A) -- (B);
+		\draw (B) -- (F);
+		\draw (F) -- (E);
+		\draw (A) -- (E);
+		\draw (B) -- (C);
+		\draw (F) -- (G);
+		\draw (E) -- (H);
+		\draw (C) -- (G);
+		\draw (G) -- (H);
+		\draw[dashed] (H) -- (D);
+		\draw[dashed] (A) -- (D);
+		\draw[dashed] (C) -- (D);
+		\node[below left] at (A) {A};
+		\node[below right] at (B) {B};
+		\node[right] at (C) {C};
+		\node[below right] at (D) {D};
+		\node[above left] at (E) {E};
+		\node[above left] at (F) {F};
+		\node[above right] at (G) {G};
+		\node[above left] at (H) {H};
+	\end{tikzpicture} \\
+	\begin{tikzpicture}
+		\coordinate (A) at (0,0);
+		\coordinate (B) at (6,0);
+		\coordinate (F) at (6,6);
+		\coordinate (E) at (0,6);
+		\coordinate (C) at ($(B) + (45:3)$);
+		\coordinate (G) at ($(F) + (45:3)$);
+		\coordinate (H) at ($(E) + (45:3)$);
+		\coordinate (D) at ($(H) - (0,6)$);
+		\draw (A) -- (B);
+		\draw (B) -- (F);
+		\draw (F) -- (E);
+		\draw (A) -- (E);
+		\draw (B) -- (C);
+		\draw (F) -- (G);
+		\draw (E) -- (H);
+		\draw (C) -- (G);
+		\draw (G) -- (H);
+		\draw[dashed] (H) -- (D);
+		\draw[dashed] (A) -- (D);
+		\draw[dashed] (C) -- (D);
+		\node[below left] at (A) {A};
+		\node[below right] at (B) {B};
+		\node[right] at (C) {C};
+		\node[below right] at (D) {D};
+		\node[above left] at (E) {E};
+		\node[above left] at (F) {F};
+		\node[above right] at (G) {G};
+		\node[above left] at (H) {H};
+	\end{tikzpicture}
+	\begin{tikzpicture}
+		\coordinate (A) at (0,0);
+		\coordinate (B) at (6,0);
+		\coordinate (F) at (6,6);
+		\coordinate (E) at (0,6);
+		\coordinate (C) at ($(B) + (45:3)$);
+		\coordinate (G) at ($(F) + (45:3)$);
+		\coordinate (H) at ($(E) + (45:3)$);
+		\coordinate (D) at ($(H) - (0,6)$);
+		\draw (A) -- (B);
+		\draw (B) -- (F);
+		\draw (F) -- (E);
+		\draw (A) -- (E);
+		\draw (B) -- (C);
+		\draw (F) -- (G);
+		\draw (E) -- (H);
+		\draw (C) -- (G);
+		\draw (G) -- (H);
+		\draw[dashed] (H) -- (D);
+		\draw[dashed] (A) -- (D);
+		\draw[dashed] (C) -- (D);
+		\node[below left] at (A) {A};
+		\node[below right] at (B) {B};
+		\node[right] at (C) {C};
+		\node[below right] at (D) {D};
+		\node[above left] at (E) {E};
+		\node[above left] at (F) {F};
+		\node[above right] at (G) {G};
+		\node[above left] at (H) {H};
+	\end{tikzpicture} \\
+	\begin{tikzpicture}
+		\coordinate (A) at (0,0);
+		\coordinate (B) at (6,0);
+		\coordinate (F) at (6,6);
+		\coordinate (E) at (0,6);
+		\coordinate (C) at ($(B) + (45:3)$);
+		\coordinate (G) at ($(F) + (45:3)$);
+		\coordinate (H) at ($(E) + (45:3)$);
+		\coordinate (D) at ($(H) - (0,6)$);
+		\draw (A) -- (B);
+		\draw (B) -- (F);
+		\draw (F) -- (E);
+		\draw (A) -- (E);
+		\draw (B) -- (C);
+		\draw (F) -- (G);
+		\draw (E) -- (H);
+		\draw (C) -- (G);
+		\draw (G) -- (H);
+		\draw[dashed] (H) -- (D);
+		\draw[dashed] (A) -- (D);
+		\draw[dashed] (C) -- (D);
+		\node[below left] at (A) {A};
+		\node[below right] at (B) {B};
+		\node[right] at (C) {C};
+		\node[below right] at (D) {D};
+		\node[above left] at (E) {E};
+		\node[above left] at (F) {F};
+		\node[above right] at (G) {G};
+		\node[above left] at (H) {H};
+	\end{tikzpicture}
+	\begin{tikzpicture}
+		\coordinate (A) at (0,0);
+		\coordinate (B) at (6,0);
+		\coordinate (F) at (6,6);
+		\coordinate (E) at (0,6);
+		\coordinate (C) at ($(B) + (45:3)$);
+		\coordinate (G) at ($(F) + (45:3)$);
+		\coordinate (H) at ($(E) + (45:3)$);
+		\coordinate (D) at ($(H) - (0,6)$);
+		\draw (A) -- (B);
+		\draw (B) -- (F);
+		\draw (F) -- (E);
+		\draw (A) -- (E);
+		\draw (B) -- (C);
+		\draw (F) -- (G);
+		\draw (E) -- (H);
+		\draw (C) -- (G);
+		\draw (G) -- (H);
+		\draw[dashed] (H) -- (D);
+		\draw[dashed] (A) -- (D);
+		\draw[dashed] (C) -- (D);
+		\node[below left] at (A) {A};
+		\node[below right] at (B) {B};
+		\node[right] at (C) {C};
+		\node[below right] at (D) {D};
+		\node[above left] at (E) {E};
+		\node[above left] at (F) {F};
+		\node[above right] at (G) {G};
+		\node[above left] at (H) {H};
+	\end{tikzpicture} \\
+	\copyright 2023 Ondřej Hasník
+\end{document}
